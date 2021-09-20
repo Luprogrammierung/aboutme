@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <div id="first-page">
-        <a id="first-page-LinkedIn" href="https://www.linkedin.com/in/lukas-weber-7407b6220/" class="first-page-Side-Link">
+    <section id="first-page">
+        <a id="first-page-LinkedIn" href="https://www.linkedin.com/in/lukas-weber-7407b6220/"
+            class="first-page-Side-Link">
             <img src="pictures/linkedin.svg" class="first-page-Side-Images" alt="linkedin">
         </a>
         <a id="first-page-Github" href="https://github.com/Luprogrammierung" class="first-page-Side-Link">
@@ -19,13 +20,12 @@
         </a>
         <div id="first-page-Contentbox">
             <div id="first-page-Top">
-                <div id="first-page-Navigation">
-                    <a class="nav-item" style="color: #004CFE; border-bottom: 3px solid #004CFE;"
-                        href="index.html">Home</a>
-                    <a class="nav-item">My Resume</a>
-                    <a class="nav-item">Skills</a>
-                    <div id="first-page-Contact">Contact</div>
-                </div>
+                <ul id="first-page-Navigation">
+                    <li class="nav-item "><a href="index.html" class="nav-item-action">Home</a> </li>
+                    <li class="nav-item"><a>My Resume</a></li>
+                    <li class="nav-item"><a>Skills</a></li>
+                    <li id="first-page-Contact"><a href="mailto:weberlukas540@gmail.com?">Contact</a></li>
+                </ul>
                 <div id="first-page-Text">
                     <div id="first-page-Text-Big"><span style="color: #004CFE;">Hi,<br /></span>
                         <span style="color: white;">I'm Lukas Weber </span>
@@ -47,12 +47,19 @@
             <img src="pictures/w2v1_edited_blackwhite - mobile.png" id="first-page-Image-Mobile"
                 alt="picture Lukas Weber">
             <div id="first-page-News-Bar">
+                <div id="first-page-News-Bar-Headline" class="News-Bar-Text">NEWS</div>
+                <div id="first-page-News-Bar-Text" class="News-Bar-Text">Work in progress</div>
                 <!-- <img src="pictures/w2v1_edited_blackwhite.png" id="first-page-Image-Blur"> -->
             </div>
         </div>
-    </div>
-    <div id="second-page">
-        
-    </div>
+    </section>
+    <section id="second-page">
+        <div id="second-page-Headline">
+            <h2>Experience & Education & Awards</h2>
+        </div>
+        <div id="second-page-Contentbox">
+            <div id="second-page-Timeline"></div>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
