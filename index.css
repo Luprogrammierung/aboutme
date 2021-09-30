@@ -20,6 +20,7 @@ h2{
     font-weight: 500;
     color: white;
     margin: 0px;
+    padding-top: 10vh;
 }
 
 body {
@@ -332,20 +333,18 @@ body {
 
 #second-page{
     scrollbar-width: none;
-
+    overflow: auto;
     height: auto;
     background: linear-gradient( #161618, #4A4A4A);
-}
-#second-page-Headline{
-    padding-top: 10vh;
 }
 #second-page-Contentbox{
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
     position: relative;
     margin-top: 10vh;
     width: 100%;
-    padding-bottom: 10vh;
+    margin-bottom: 10vh;
     max-width: 1000px;
 }
 #second-page-Timeline{
@@ -457,4 +456,84 @@ body {
     h2{
         font-size: 7vw;
     }
+}
+
+#third-page{
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    height: auto;
+    background: linear-gradient(170deg, #4A4A4A, #3D3D3D);
+    width: 100%;
+}
+#third-page-Contentbox{
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10vh;
+    width: 100%;
+    margin-bottom: 10vh;
+    max-width: 1000px;
+}
+.table-container{
+    background-color: #1D1D1D;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    width: calc(100%-20px);
+    padding: 20px 7%;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.table-headline{
+    color: white;
+    font-family: Poppins;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.table{
+    position: relative;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.line{
+    position: absolute;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+.line-elements{
+    text-align: center;
+    min-height: 1px;
+    display: inline;
+    float: left;
+    width: 20%;
+}
+.line-elements-left{
+    text-align: left;
+    cursor: pointer;
+}
+.line-elements-left:hover{
+    color: #004CFE;
+}
+.table-bar{
+    top: calc(50% - 10px);
+    margin-left: 2px;
+    position: absolute;
+    padding: 7px;
+    background-color: #004CFE;
+    left: 20%;
+}
+.vertical-line{
+    position: absolute;
+    left: 20%;
+    height: 100%;
+    border-left: 2px dotted white;
 }

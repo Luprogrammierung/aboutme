@@ -5,6 +5,9 @@ const elementsleft = document.getElementsByClassName('container-left');
 const elementsright = document.getElementsByClassName('container-right');
 const elementscenter = document.getElementsByClassName('container-center');
 const elementsall = document.getElementsByClassName('container');
+const lines = document.getElementsByClassName('line');
+const lineelementsleft = document.getElementsByClassName('line-elements-left')
+
 
 function gitlinkedadd() {
     if (firstpage.clientHeight * 4 > firstpage.clientWidth * 7) {
@@ -66,22 +69,32 @@ function mobiledesign() {
             elementsall[i].classList.remove('container-right');
         }
     }
-    else{
-        for(var i=1;i<elementsall.length+1; i++){
-            elementsall[i-1].classList.remove('container-center');
-            if(i%2 ==0){
-                elementsall[i-1].classList.add('container-right');
+    else {
+        for (var i = 1; i < elementsall.length + 1; i++) {
+            elementsall[i - 1].classList.remove('container-center');
+            if (i % 2 == 0) {
+                elementsall[i - 1].classList.add('container-right');
             }
-            else{
-                elementsall[i-1].classList.add('container-left');
+            else {
+                elementsall[i - 1].classList.add('container-left');
             }
         }
     }
+}
+function positionlines() {
+    var heightline = 0;
+    for (var i = 0; i < lines.length; i++) {
+        lines[i].style.top = heightline + "px";
+        heightline = heightline + parseInt(getComputedStyle(lines[i]).marginBottom) + lines[i].offsetHeight;
+    }
+    console.log(heightline);
+    document.getElementsByClassName('table')[0].style.height = heightline + "px";
 }
 
 window.addEventListener('load', () => {
     mobiledesign();
     positionelements();
+    positionlines();
     gitlinkedadd();
     removeNewsbar();
 });
@@ -89,6 +102,7 @@ window.addEventListener('resize', () => {
     console.log(elementsright);
     mobiledesign();
     positionelements();
+    positionlines();
     gitlinkedadd();
     removeNewsbar();
 });
