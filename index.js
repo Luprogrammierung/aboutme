@@ -106,3 +106,48 @@ window.addEventListener('resize', () => {
     gitlinkedadd();
     removeNewsbar();
 });
+
+document.getElementById('third-page-Programming-Close').onclick = function () {
+    document.getElementById('third-page-Programming-Overlay').classList.remove('active')
+}
+Array.from(lineelementsleft).forEach(function (element) {
+    var e = element
+    console.log(element);
+    element.onclick = function () {
+        switch (element.innerHTML) {
+            case 'Java':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'Java';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'Java was my first programming language which I practiced for four years. I learned Java during my three years in the First Lego League team and started developing mini-games in Java. Later I participated at the BWINF twice and also started App development with Android studio. Currently, I also learn more about Java at university.'
+                break;
+            case 'Python':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'Python';
+                break;
+            case 'C++':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'C++';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I used C++ to compete in the IOI (International Olympiad in Informatics). The IOI is a competitive programming competition concentrating on problem-solving of algorithm nature. I especially learned more about runtime optimized programming in C++.'
+                break;
+            case 'Javascript':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'Javascript';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I use Javascript for the back and frontend of all my Websites. With Node js, I also created an express server, for my Website Autouml. While programming with Javascript, I also gained a basic understanding of JQuery.'
+                break;
+            case 'HTML': ;
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'HTML';
+                break;
+            case 'CSS':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'CSS';
+                break;
+            case 'C#':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'C#';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I just started learning C# a few weeks ago by reading the Microsoft documentation. Now I try to learn more about C# by programming my first desktop application.'
+                break;
+
+        }
+    }
+});
