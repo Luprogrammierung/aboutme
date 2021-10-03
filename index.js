@@ -11,13 +11,13 @@ const alltables = document.getElementsByClassName('table');
 
 
 function gitlinkedadd() {
-    if (firstpage.clientHeight * 4 > firstpage.clientWidth * 7) {
+    if (window.innerHeight * 4 > window.innerWidth * 6) {
         document.getElementById('first-page-Top').appendChild(document.getElementById('first-page-LinkedIn'));
         document.getElementById('first-page-Top').appendChild(document.getElementById('first-page-Github'));
     }
     if (document.getElementById('first-page-Top').contains(document.getElementById('first-page-LinkedIn')) &&
         document.getElementById('first-page-Top').contains(document.getElementById('first-page-Github'))) {
-        if (firstpage.clientHeight * 4 < firstpage.clientWidth * 7) {
+        if (window.innerHeight * 4 < window.innerWidth * 6) {
             document.getElementById('first-page').appendChild(document.getElementById('first-page-LinkedIn'));
             document.getElementById('first-page').appendChild(document.getElementById('first-page-Github'));
         }
