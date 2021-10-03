@@ -325,12 +325,12 @@ body {
         position: static;
     }
     #first-page-LinkedIn {
-        margin-left: 10vh;
+        margin-left: 10vw;
         float: left;
     }
     #first-page-Github {
         float: right;
-        margin-right: 10vh;
+        margin-right: 10vw;
     }
     .first-page-Side-Images {
         width: 5vh;
@@ -592,8 +592,8 @@ body {
     z-index: 1;
     border-radius: 30px;
     position: absolute;
+    left: 0px;
     margin-top: -20px;
-    margin-left: -7%;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
@@ -626,6 +626,12 @@ body {
         font-size: 2.2vw;
     }    
 }
+@media screen and (max-width: 800px) {
+    .overlay-container{
+        width: 70%;
+    }
+    
+}
 @media screen and (max-width: 600px){
     .table-headline{
         font-size: 3vw;
@@ -633,7 +639,7 @@ body {
     .table-bar{
         top: calc(50% - 7px);
         padding: 5px;
-    }
+        }
     #footer-Text{
         font-size: 0.8em;
     }
@@ -642,12 +648,43 @@ body {
         margin-right: 10px;
         padding: 15px 5%;
     }
+    #third-page-Other-Content{
+        font-size: calc(2vw + 3px);
+    }
+    #third-page-Other-Headline{
+        font-size: calc(4vw + 4px);
+    }
+    #third-page-Programming-Content{
+        font-size: calc(2vw + 3px);
+    }
+    #third-page-Programming-Headline{
+        font-size: calc(4vw + 4px);
+    }
+    .container-content{
+        margin-bottom: 0px;
+    }
+    .overlay{
+        margin-top: -15px;
+    }
+    .overlay-container{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 400px) {
+    .close-model{
+        width: 25px;
+        height: 25px;
+    }
+    .overlay-container{
+        width: 90%;
+    }
     .table-container{
         margin-left: 5px;
         margin-right: 5px;
         padding: 10px 2%;
+    }
+    .overlay{
+        margin-top: -10px;
     }
     .table-headline{
         font-size: 4vw;
