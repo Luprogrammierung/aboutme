@@ -89,8 +89,7 @@ function positionlines() {
         for (i; i < lines.length; i++) {
             lines[i].style.top = heightline + "px";
             heightline = heightline + parseInt(getComputedStyle(lines[i]).marginBottom) + lines[i].offsetHeight;
-            console.log(lines[i])
-            if (lines[i].style.borderBottom == "none") {
+            if (lines[i].style.borderBottom == "none" || lines[i].style.borderBottom == "medium none") {
                 i++;
                 break;
             }
@@ -107,7 +106,6 @@ window.addEventListener('load', () => {
     removeNewsbar();
 });
 window.addEventListener('resize', () => {
-    console.log(elementsright);
     mobiledesign();
     positionelements();
     positionlines();
