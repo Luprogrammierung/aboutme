@@ -15,6 +15,9 @@ ul {
     margin: 0px;
     padding: 0px;
 }
+p{
+    margin: 0px;
+}
 
 h2 {
     font-family: 'Open Sans';
@@ -113,9 +116,33 @@ body {
 }
 
 #first-page-Text-Big {
+    margin-right: auto;
     font-size: calc(4.4vw);
     line-height: calc(4.4vw);
+    display: inline-block;
 }
+#first-page-Text-Big-Lukas {
+    padding-right: 5px;
+    display: inline-block;
+    border-right: calc(0.2vw + 3px) solid blue;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 6s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: blue; }
+  }
+@keyframes typing {
+    from { 
+      width: 0
+    }  
+    to { 
+      width: 100%
+    }
+  }
 
 #first-page-Text-Small {
     margin-top: 30px;
@@ -196,6 +223,7 @@ body {
     max-width: 100%;
     display: none;
 }
+
 
 @media screen and (orientation: landscape) {
     @media screen and (min-aspect-ratio: 2/1) {
@@ -318,7 +346,7 @@ body {
     }
 }
 
-@media screen and (max-aspect-ratio: 4/6) {
+@media screen and (max-aspect-ratio: 2/3) {
     .first-page-Side-Link {
         margin-top: 5vh;
         display: block;

@@ -11,13 +11,13 @@ const alltables = document.getElementsByClassName('table');
 
 
 function gitlinkedadd() {
-    if (window.innerHeight * 4 > window.innerWidth * 6) {
+    if (window.innerHeight * 2 > window.innerWidth * 3) {
         document.getElementById('first-page-Top').appendChild(document.getElementById('first-page-LinkedIn'));
         document.getElementById('first-page-Top').appendChild(document.getElementById('first-page-Github'));
     }
     if (document.getElementById('first-page-Top').contains(document.getElementById('first-page-LinkedIn')) &&
         document.getElementById('first-page-Top').contains(document.getElementById('first-page-Github'))) {
-        if (window.innerHeight * 4 < window.innerWidth * 6) {
+        if (window.innerHeight * 2 <= window.innerWidth * 3) {
             document.getElementById('first-page').appendChild(document.getElementById('first-page-LinkedIn'));
             document.getElementById('first-page').appendChild(document.getElementById('first-page-Github'));
         }
@@ -106,6 +106,8 @@ window.addEventListener('load', () => {
     removeNewsbar();
 });
 window.addEventListener('resize', () => {
+    console.log(window.innerHeight);
+        console.log(window.innerWidth);
     mobiledesign();
     positionelements();
     positionlines();
