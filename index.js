@@ -1,4 +1,3 @@
-const firstpage = document.getElementById('first-page');
 const timeline = document.getElementById('second-page-Timeline');
 const contentbox = document.getElementById('second-page-Contentbox');
 const elementsleft = document.getElementsByClassName('container-left');
@@ -125,7 +124,13 @@ document.getElementById('third-page-Other-Close').onclick = function () {
 
 Array.from(lineelementsleft).forEach(function (element) {
     element.onclick = function () {
-        switch (element.innerHTML) {
+        var elem = document.querySelector('#third-page-Info');
+        if(elem != null){
+        
+        elem.parentElement.removeChild(elem);
+    }
+
+        switch (element.innerText || element.textContent) {
             case 'Java':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Java';
