@@ -134,12 +134,12 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'Java':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Java';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'Java was my first programming language which I practiced for four years. I learned Java during my three years in the First Lego League team and started developing mini-games in Java. Later I participated at the BWINF twice and also started App development with Android studio. Currently, I also learn more about Java at university.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'Java was my first programming language, which I practiced for four years. I learned Java during my three years in the First Lego League team and started developing mini-games in Java. Later I participated at the BWINF twice and also started app development with Android studio. Currently, I also learn more about Java at university.'
                 break;
             case 'Python':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Python';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'I use Python for implementing small algorithms which don not require much runtime. Apart from developing algorithms, I also got a basic understanding of the libraries Tensorflow and Keras for deep learning.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I use Python for implementing small algorithms which do not require much runtime. Apart from developing algorithms, I also got a basic understanding of the libraries Tensorflow and Keras for deep learning.'
                 break;
             case 'C++':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
@@ -149,7 +149,7 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'Javascript':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Javascript';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'I use Javascript for the back and front end of all my Websites. With Node js, I also created an express server, for my Website autouml.com. While programming with Javascript, I also gained a basic understanding of JQuery.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I use Javascript for the back and front end of all my websites. With Node.js, I also created an express server for my website autouml.com. While programming with Javascript, I also gained a basic understanding of JQuery.'
                 break;
             case 'HTML/CSS': ;
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
@@ -164,22 +164,22 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'Teamwork':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
                 document.getElementById('third-page-Other-Headline').innerHTML = 'Teamwork';
-                document.getElementById('third-page-Other-Content').innerHTML = 'With my First Lego League team RoboGo, I won many prizes for our Teamwork. Our most important success was winning the Teamwork category at the Semi-final in Regensburg.'
+                document.getElementById('third-page-Other-Content').innerHTML = 'With my First Lego League team RoboGo, I won many prizes for our teamwork. Our most important success was winning the teamwork category at the semi-final in Regensburg.'
                 break;
             case 'Coaching':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
                 document.getElementById('third-page-Other-Headline').innerHTML = 'Coaching';
-                document.getElementById('third-page-Other-Content').innerHTML = 'After my active time at the robotic team, I started coaching the current First Lego League team at my former school. Last year, I additionally coached the beginner group and the WRO (World Robotic Olympiad) team at my former school. '
+                document.getElementById('third-page-Other-Content').innerHTML = "After my active time in the robotic team, I started coaching the current First Lego League team at my former school. Last year, I additionally coached the beginner's group and the WRO (World Robotic Olympiad) team at my former school."
                 break;
             case 'Presentation':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
                 document.getElementById('third-page-Other-Headline').innerHTML = 'Presentation';
-                document.getElementById('third-page-Other-Content').innerHTML = 'During my time at the robotic team, we presented our project to many different judges and also to many companies like Airbus, ASM, or QAware. With my "Jugenforscht" project, I learned to present the same project to many different groups like children, engineers, or teachers.  '
+                document.getElementById('third-page-Other-Content').innerHTML = 'During my time in the robotic team, we presented our project to many different judges and also to many companies like Airbus, ASM, or QAware. With my "Jugenforscht" project, I learned to present the same project to many different groups like children, engineers, or teachers.'
                 break;
             case 'Design':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
                 document.getElementById('third-page-Other-Headline').innerHTML = 'Design';
-                document.getElementById('third-page-Other-Content').innerHTML = 'For my Designs, I use Adobe XD or Photoshop Express and the Adobe Creative Cloud. I also have experience in creating Powerpoint presentations.'
+                document.getElementById('third-page-Other-Content').innerHTML = 'For my designs, I use Adobe XD or Photoshop Express and the Adobe Creative Cloud. I also have experience in creating Powerpoint presentations.'
                 break;
 
         }
