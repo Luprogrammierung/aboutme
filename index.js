@@ -134,7 +134,7 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'Java':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Java';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'Java was my first programming language, which I practiced for four years. I learned Java during my three years in the First Lego League team and started developing mini-games in Java. Later I participated at the BWINF twice and also started app development with Android studio. Currently, I also learn more about Java at university.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'Java was my first programming language, which I practiced for four years. I learned Java during my three years in the First Lego League team and started developing mini-games in Java. Later I participated at the BWINF twice and also started app development with Android studio. In my first semester, I learned a lot about working with streams and threads. I finished my programming internship in Java with a grade of 1.0 (converted US GPA ~ 4.0).'
                 break;
             case 'Python':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
@@ -154,7 +154,12 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'HTML/CSS': ;
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'HTML/CSS';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'This year I learned web development with HTML and CSS and obtained good knowledge about responsive web design with media queries. '
+                document.getElementById('third-page-Programming-Content').innerHTML = 'For one year I learn web development with HTML and CSS and obtained good knowledge about responsive web design with media queries. '
+                break;
+            case 'x86 Assembly': ;
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'x86 Assembly';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'This semester I learned more about computer architecture, especially the Intel IA-32, which gave me a good overview of x86 assembly programming.'
                 break;
             case 'C#':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');

@@ -170,6 +170,7 @@ body {
 }
 
 .News-Bar-Text {
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 3vw;
     margin-top: 1vh;
     text-align: left;
