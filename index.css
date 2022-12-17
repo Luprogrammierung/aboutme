@@ -168,6 +168,7 @@ body {
     margin-right: auto;
     width: 100%;
     height: 100%;
+
 }
 
 .News-Bar-Text {
@@ -176,6 +177,7 @@ body {
     margin-top: 1vh;
     text-align: left;
     color: white;
+    
 }
 .News-Bar-Text span {
     border-bottom: 2px solid #757575;
@@ -183,6 +185,7 @@ body {
 }
 
 #first-page-News-Bar-Headline {
+    
     font-weight: 300;
     font-family: Nirmala UI;
     letter-spacing: 5px;
@@ -192,6 +195,7 @@ body {
 #first-page-News-Bar-Text {
     font-family: 'Open Sans';
     color: #A1A1A1;
+    
     font-size: 2.5vh;
 }
 

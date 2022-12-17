@@ -139,22 +139,27 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'Python':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Python';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'I use Python for implementing small algorithms which do not require much runtime. Apart from developing algorithms, I also got a basic understanding of the libraries Tensorflow and Keras for deep learning.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I learned Python for implementing small scripts or servers, which I prepared for different use cases. Apart from developing scripts, I also got a basic understanding of the libraries Tensorflow and Keras for deep learning.'
                 break;
-            case 'C++':
+            case 'C++/C':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'C++';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'I used C++ to compete in the IOI (International Olympiad in Informatics). The IOI is a competitive programming competition concentrating on problem-solving of algorithm nature. I especially learned more about runtime optimized programming in C++.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I used C++ to compete in the IOI (International Olympiad in Informatics). The IOI is a competitive programming competition concentrating on problem-solving of algorithm nature. I especially learned more about runtime optimized programming in C++. I also learned C programming with a focus on parallel and OS programming as part of my college.'
                 break;
             case 'Javascript':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Javascript';
                 document.getElementById('third-page-Programming-Content').innerHTML = 'I use Javascript for the back and front end of all my websites. With Node.js, I also created an express server for my website autouml.com. While programming with Javascript, I also gained a basic understanding of JQuery.'
                 break;
+            case 'Kotlin':
+                document.getElementById('third-page-Programming-Overlay').classList.add('active');
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'Kotlin';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'Since I worked for Adesso SE, I developed multiple Kotlin apps for BMW. My main project was to include Alexa, gesture control, and gaze control in an Android application. I also worked on a data traffic tracking app, as well as an App for image generation. '
+                break;
             case 'HTML/CSS': ;
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'HTML/CSS';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'For one year I learn web development with HTML and CSS and obtained good knowledge about responsive web design with media queries. '
+                document.getElementById('third-page-Programming-Content').innerHTML = 'For two years I learn web development with HTML and CSS and obtained good knowledge about responsive web design with media queries. '
                 break;
             case 'x86 Assembly': ;
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
