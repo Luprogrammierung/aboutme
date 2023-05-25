@@ -143,7 +143,7 @@ Array.from(lineelementsleft).forEach(function (element) {
                 break;
             case 'C++/C':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
-                document.getElementById('third-page-Programming-Headline').innerHTML = 'C++';
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'C++/C';
                 document.getElementById('third-page-Programming-Content').innerHTML = 'I used C++ to compete in the IOI (International Olympiad in Informatics). The IOI is a competitive programming competition concentrating on problem-solving of algorithm nature. I especially learned more about runtime optimized programming in C++. I also learned C programming with a focus on parallel and OS programming as part of my college.'
                 break;
             case 'Javascript':
@@ -168,8 +168,8 @@ Array.from(lineelementsleft).forEach(function (element) {
                 break;
             case 'C#':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
-                document.getElementById('third-page-Programming-Headline').innerHTML = 'C#';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'I just started learning C# a few weeks ago by reading the Microsoft documentation. Now I try to learn more about C# by programming my first desktop application.'
+                document.getElementById('third-page-Programming-Headline').innerHTML = 'Flutter';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I started developing my own App with Flutter to improve my skills in App development and get more knowledge about project management.';
                 break;
             case 'Teamwork':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
@@ -186,6 +186,13 @@ Array.from(lineelementsleft).forEach(function (element) {
                 document.getElementById('third-page-Other-Headline').innerHTML = 'Presentation';
                 document.getElementById('third-page-Other-Content').innerHTML = 'During my time in the robotic team, we presented our project to many different judges and also to many companies like Airbus, ASM, or QAware. With my "Jugenforscht" project, I learned to present the same project to many different groups like children, engineers, or teachers.'
                 break;
+
+            case 'Management':
+                document.getElementById('third-page-Other-Overlay').classList.add('active');
+                document.getElementById('third-page-Other-Headline').innerHTML = 'Management';
+                document.getElementById('third-page-Other-Content').innerHTML = 'I gained my first experience in team management when I became the lead programmer in my First Lego League Team. Since then, I have had the opportunity to participate in various teams where I took on the responsibility of enhancing overall team performance. To improve my leadership skills, I joined the Siemens mentoring program, where Siemens executives assisted me in gaining further experience in team management.'
+                break;
+
             case 'Design':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
                 document.getElementById('third-page-Other-Headline').innerHTML = 'Design';

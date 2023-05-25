@@ -277,7 +277,7 @@ body {
             margin-top: 10vh;
         }
     }
-    @media screen and (max-aspect-ratio: 9/4) {
+    @media screen and (max-aspect-ratio: 17/8) {
         @media screen and (min-width: 1000px) and (max-width: 2000px) {
             #first-page-News-Bar {
                 display: block;
