@@ -166,7 +166,7 @@ Array.from(lineelementsleft).forEach(function (element) {
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'x86 Assembly';
                 document.getElementById('third-page-Programming-Content').innerHTML = 'This semester I learned more about computer architecture, especially the Intel IA-32, which gave me a good overview of x86 assembly programming.'
                 break;
-            case 'C#':
+            case 'Flutter':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Flutter';
                 document.getElementById('third-page-Programming-Content').innerHTML = 'I started developing my own App with Flutter to improve my skills in App development and get more knowledge about project management.';
