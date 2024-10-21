@@ -159,17 +159,17 @@ Array.from(lineelementsleft).forEach(function (element) {
             case 'HTML/CSS': ;
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'HTML/CSS';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'For two years I learn web development with HTML and CSS and obtained good knowledge about responsive web design with media queries. '
+                document.getElementById('third-page-Programming-Content').innerHTML = 'For three years I learn web development with HTML and CSS and obtained good knowledge about responsive web design with media queries. '
                 break;
             case 'x86 Assembly': ;
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'x86 Assembly';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'This semester I learned more about computer architecture, especially the Intel IA-32, which gave me a good overview of x86 assembly programming.'
+                document.getElementById('third-page-Programming-Content').innerHTML = 'During my time in university I learned more about computer architecture, especially the Intel IA-32, which gave me a good overview of x86 assembly programming.'
                 break;
             case 'Flutter':
                 document.getElementById('third-page-Programming-Overlay').classList.add('active');
                 document.getElementById('third-page-Programming-Headline').innerHTML = 'Flutter';
-                document.getElementById('third-page-Programming-Content').innerHTML = 'I started developing my own App with Flutter to improve my skills in App development and get more knowledge about project management.';
+                document.getElementById('third-page-Programming-Content').innerHTML = 'I developed my own App "Tipfree" with Flutter, which I also published on the Google Play Store. The App got over 10.000 downloads. While developing the App, I learned a lot about the Dart programming language and the Flutter framework.';
                 break;
             case 'Teamwork':
                 document.getElementById('third-page-Other-Overlay').classList.add('active');
